@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-MAINTANER Your Name "Zeke Santamaria"
+LABEL com.zekesantamaria.image.authors="ezequiell@gmail.com"
 
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
